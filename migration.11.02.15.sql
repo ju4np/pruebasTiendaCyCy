@@ -27,7 +27,7 @@ INSERT INTO `categoria` (`idCategoria`, `nombreCategoria`, `descripcion`, `image
 (5, 'Maquillaje', 'Un colorete aquí... unos labios góticos por alla....', 'maquillaje.jpg'),
 (6, 'Aerosoles', 'Un matiz para tu pelo, nieve artificial, serpentina...', 'aerosoles.jpg');
 
-CREATE TABLE IF NOT EXISTS `cliente` (
+CREATE TABLE IF NOT EXISTS `cliente` (  
   `idCliente` int(11) NOT NULL AUTO_INCREMENT,
   `email` varchar(30) NOT NULL,
   `contrasenya` varchar(50) NOT NULL,
